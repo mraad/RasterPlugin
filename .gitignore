@@ -1,3 +1,4 @@
+*.iml
 *.class
 
 # Package Files #
@@ -5,4 +6,5 @@
 *.war
 *.ear
 
+.idea
 target
