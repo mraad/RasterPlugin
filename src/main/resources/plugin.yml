@@ -1,0 +1,16 @@
+name: ${artifactId}
+main: ${groupId}.${artifactId}
+version: ${version}
+load: startup
+author: mraad@esri.com
+softdepend: [Multiverse-Core]
+
+commands:
+  pos:
+    description: Displays your position or teleports you to another position
+    usage: |
+      Usage: /<command> to get current position, or /<command> x y z to teleport to x,y,z, or /<command> max
+  label:
+    description: Load the raster world labels
+    usage: |
+      Usage: /<command> world /path/to/label-file.csv
